@@ -1,0 +1,50 @@
+{
+  "name": "farm-plugin-weapp",
+  "version": "1.0.0",
+  "description": "Build native Mini Program in Farm",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "farm watch",
+    "build": "farm build && tsc",
+    "lint": "eslint src __tests__ --ext .ts,.js --fix",
+    "tsc": "tsc --noEmit --declaration false --emitDeclarationOnly false",
+    "prepare": "husky install"
+  },
+  "keywords": [
+    "weapp",
+    "wxml",
+    "wxss",
+    "wechat",
+    "miniprogram",
+    "plugin",
+    "farm"
+  ],
+  "author": "molvqingtai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/molvqingtai/farm-plugin-weapp/issues"
+  },
+  "homepage": "https://github.com/molvqingtai/farm-plugin-weapp#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^17.6.5",
+    "@commitlint/config-conventional": "^17.6.5",
+    "@farmfe/cli": "^0.5.3",
+    "@farmfe/core": "^0.8.9",
+    "@typescript-eslint/eslint-plugin": "^5.50.0",
+    "eslint": "^8.42.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-config-standard-with-typescript": "^35.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.0.0",
+    "husky": "^8.0.3",
+    "prettier": "^2.8.8",
+    "tsx": "^3.12.7",
+    "typescript": "^5.1.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
