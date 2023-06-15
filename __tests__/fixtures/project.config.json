@@ -1,0 +1,29 @@
+{
+  "description": "项目配置文件",
+  "packOptions": {
+    "ignore": [],
+    "include": []
+  },
+  "miniprogramRoot": "miniprogram/",
+  "compileType": "miniprogram",
+  "projectname": "ts-sass-demo",
+  "setting": {
+    "useCompilerPlugins": ["typescript", "sass"],
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "condition": false
+  },
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "condition": {},
+  "srcMiniprogramRoot": "miniprogram/",
+  "appid": "wx51e17c564a387e8d",
+  "libVersion": "2.32.2",
+  "editorSetting": {
+    "tabIndent": "insertSpaces",
+    "tabSize": 2
+  }
+}

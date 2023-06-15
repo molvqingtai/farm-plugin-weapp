@@ -1,5 +1,5 @@
+import { type UserConfig } from '@farmfe/core'
 import { builtinModules } from 'node:module'
-import type { UserConfig } from '@farmfe/core'
 
 export default {
   compilation: {
